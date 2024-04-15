@@ -1,0 +1,341 @@
+img-inicio{
+    width: 420px;
+    height: 370px;
+    border: 4px solid lightyellow;
+}
+
+
+
+
+h2{
+    background-color: lightyellow;
+    margin-top: 50px;
+    border: 3px solid black;
+    padding: 2px;
+    
+    
+
+    
+}
+
+.Info{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+
+
+    
+.Titulo-messi{
+    color: black;
+     
+}
+.Inicio-Messi{
+    color: lightyellow;
+    margin: 20px;
+    padding: 5px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:  rgb(172, 150, 28);
+    border-radius: 5px;
+    
+}
+
+.Inicio-Messi:hover{
+background-color: lightskyblue;
+transition: all .5s;
+transform: scale(3px);
+
+
+}
+.Messi-info{
+    color: yellow;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+ list-style-type: none;
+}
+.Foto-Carnet{
+    width: 270px;
+    height: 270px;
+    margin-left: 55px;
+    border-radius: 5px;
+    border-bottom: 4px solid white;
+    border-top: 4px solid white;
+    margin-top: 30px;
+}
+.foto-cancha{
+    width: 780px;
+    height: 220px;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 2px solid lemonchiffon;
+}
+
+
+
+.Titulo-principal{
+    
+   
+   display: inline;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: lightyellow;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-decoration: underline white;
+   text-decoration: none;
+    
+    
+}
+
+.Lista {
+     text-decoration: none;
+     margin-top: 45px;
+     border: 7px solid black;
+     display: flex;
+    font-size: 30px;
+    padding: 5px;
+    background-color: lightyellow;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-evenly;
+
+   
+}
+.footer{
+    text-align: end;
+    font-size: x-small;
+   color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    display: inline
+}
+footer span {
+    color: lightskyblue;
+}
+.span-sol{
+    color: yellow;
+}
+
+li {
+    list-style: none;
+}
+nav ul li {
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    align-items: center;
+    
+}
+.icono-futbol {
+    width: 17px;
+    height: 17px;
+    
+}
+
+
+body {
+ background: linear-gradient(rgba(0,0,0, 0.30) 0%, rgba(0,0,0, 0.60) 100%), url(https://images7.alphacoders.com/979/979200.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+
+ 
+ 
+
+}
+.icono-barcelona{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 200px;
+    margin-left: 30px;
+}
+.Imagen-inicio{
+    width: 550px;
+    height: 550px;
+    margin-left: 120px;
+
+}
+
+p{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+    nav{
+        width: 100%;
+        justify-content: space-between;
+        display: inline-flex;
+    }
+
+    .primera-imagen-perfil{
+        width: 570px;
+        height: 460px;
+        margin-left: 90px;
+        border-radius: 4px;
+    }
+section{
+display: inline-flex;
+justify-content: space-between;
+}
+.Imagen-iconica{
+    width: 320px;
+    height: 280px;
+    border-radius: 7px;
+}
+header{
+
+    border-bottom: 2px solid white;
+    margin-top: 35px;
+}
+.Imagen-iconica-kempes{
+    width: 320px;
+    height: 280px;
+    border-radius: 7px;
+    margin-right: 145px;
+}
+.Imagen-iconica-passarella{
+    width: 300px;
+    height: 320px;
+    border-radius: 7px;
+    margin-left: 460px;
+}
+.Parrafo-1{
+    margin-top: 75px;
+    display: flex;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+
+}
+.imagen-dimaria-parrafo1{
+    
+    width: 570px;
+    height: 450px;
+    border-radius: 5px;
+    margin: 25px;
+
+}
+.Parrafo-2{
+    display: inline-flex;
+    margin: 25px;
+
+}
+.Imagen-dimaria-parrafo2{
+    width: 500px;
+    height: 420px;
+    margin: 25px;
+    border-radius: 5px;
+}
+.Imagen-final{
+margin-left: 70px;
+width: 1260px;
+height: 500px;
+margin-left: 180px;
+border-radius: 5px;
+margin-top: 45px;
+
+}
+.footer-jugadores{
+    margin-top: 60px;
+    align-content: end;
+    text-align: end;
+    color: white;
+    text-decoration: underline white;
+}
+.fotos-cancha-iconica{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.parrafo-carr{
+
+   margin: 25px;
+}
+.Parrafo-index-1{
+    margin: 25px;
+}
+.carrusel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.carrusel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.subtitulo{
+
+display: flex;
+justify-content: center;
+}
+.Foto-Carnet-messi{
+
+width: 270px;
+height: 320px;
+margin-left: 55px;
+    border-radius: 5px;
+    
+    margin-top: 30px;
+
+
+}
+.Foto-final-jugadores{
+
+
+    display: flex;
+    justify-content: center;
+}
+.Imagen-messi-parrafo2{
+    width: 560px;
+    height: 410px;
+    margin-right: 45px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px; 
+}
+.parrafo-inicial{
+
+    margin: 25px;
+}
+.imagen-maradona-1 {
+
+    width: 410px;
+    height: 320px;
+    margin: 25px;
+}
+.Foto-Carnet-maradona{
+    width: 320px;
+    height: 400px;
+    margin-left: 55px;
+        border-radius: 5px;
+        
+        margin-top: 30px;
+
+}
+.foto-kempes-1{
+
+
+    width: 470px;
+    height: 420px;
+    margin: 25px;
+}
+.foto-passarella-2{
+
+
+    width: 420px;
+    height: 420px;
+    margin: 25px;
+}
+p{
+    color: red;
+}

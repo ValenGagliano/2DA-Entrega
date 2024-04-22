@@ -46,6 +46,7 @@ h2{
 background-color: lightskyblue;
 transition: all .5s;
 transform: scale(3px);
+margin: 15px;
 
 
 }
@@ -336,6 +337,9 @@ margin-left: 55px;
     height: 420px;
     margin: 25px;
 }
-p{
-    color: red;
+@media screen and (max-width:939px){
+    .Imagen-final {
+        height: 100px;
+        width: 100px;
+    }
 }

@@ -35,6 +35,7 @@ h2 {
   background-color: lightskyblue;
   transition: all 0.5s;
   transform: scale(3px);
+  margin: 15px;
 }
 
 .Messi-info {
@@ -318,6 +319,11 @@ header {
   margin: 25px;
 }
 
+@media screen and (max-width: 939px) {
+  .Imagen-final {
+    height: 100px;
+    width: 100px;
+  }
+}
 
-
-
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,261 @@
+@media screen and (max-width:939px){
+    .Imagen-final {
+        height: 290px;
+        width: 540px;
+    }
+
+    .primera-imagen-perfil{
+        height: 290px;
+        width: 540px;
+    }
+
+ 
+ .parrafo-inicial p{
+    font-size: 10px;
+    
+ }
+ .Parrafo-1 p{ 
+
+font-size: 10px;
+
+ }
+ .foto-cancha{
+
+    height: 210px;
+    width: 470px;
+ }
+ .Imagen-iconica{
+
+    height: 200px;
+    width: 200px;
+
+    
+ }
+ .Parrafo-2 p {
+    font-size: 10px;
+ }
+ .Imagen-messi-parrafo2{
+    height: 290px;
+    width: 540px;
+ }
+ .Foto-Carnet-messi{
+    width: 200px;
+    height: 250px;
+
+ }
+ .icono-barcelona{
+    width: 46px;
+    height: 46px;
+
+ }
+.Foto-Carnet-maradona{
+    width: 250px;
+    height: 300px;
+
+}
+.imagen-maradona-1{
+
+    width: 320px;
+    height: 280px;
+}
+.Imagen-iconica-kempes{
+    height: 180px;
+    width: 180px;
+    margin-left: 40px;
+}
+.foto-kempes-1{
+
+    width: 400px;
+    height: 320px;
+}
+.imagen-dimaria-parrafo1{
+    width: 360px;
+    height: 320px;
+
+}
+.Imagen-dimaria-parrafo2{
+    width: 360px;
+    height: 320px;
+
+}
+
+.Imagen-iconica-passarella{
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+}
+
+.foto-passarella-2{
+    width: 360px;
+    height: 320px;
+}
+
+
+.parrafo-carr{
+    font-size: 12px;
+}
+.Parrafo-index-1{
+    font-size: 12px;
+}
+}
+
+@media screen and (max-width:390px) {
+    .Imagen-final {
+        height: 180px;
+        width: 290px;
+       margin: 0px;
+    }
+
+.Foto-final-jugadores{
+
+    display: flex;
+    align-items: center;
+    
+
+}
+
+    .primera-imagen-perfil{
+        height: 150px;
+        width: 250px;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+ 
+ .parrafo-inicial p{
+    font-size: 7px;
+    
+    
+ }
+ .Parrafo-1{
+display: flex;
+flex-direction: column-reverse;
+justify-content: center;
+align-items: center;
+
+ }
+ .Parrafo-1 p{ 
+
+font-size: 7px;
+
+ }
+ .foto-cancha{
+
+    height: 100px;
+    width: 240px;
+ }
+ .Imagen-iconica{
+
+    height: 100px;
+    width: 100px;
+
+    
+ }
+ .Parrafo-2 p {
+    font-size: 7px;
+
+ }
+
+.Parrafo-2{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+ .Imagen-messi-parrafo2{
+    height: 120px;
+    width: 320px;
+ }
+ .Foto-Carnet-messi{
+    width: 130px;
+    height: 170px;
+    margin-left: 0px;
+
+ }
+ .icono-barcelona{
+    width: 26px;
+    height: 26px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+
+ }
+.Foto-Carnet-maradona{
+    width: 170px;
+    height: 220px;
+    margin: 0px;
+}
+.imagen-maradona-1{
+
+    width: 280px;
+    height: 240px;
+}
+.Imagen-iconica-kempes{
+    height: 120px;
+    width: 120px;
+    margin-left: 40px;
+    margin-right: 0px;
+}
+.foto-kempes-1{
+
+    width: 340px;
+    height: 220px;
+}
+.imagen-dimaria-parrafo1{
+    width: 270px;
+    height: 240px;
+
+}
+.Imagen-dimaria-parrafo2{
+    width: 270px;
+    height: 240px;
+
+}
+
+.Imagen-iconica-passarella{
+    height: 120px;
+    width: 120px;
+    margin: 0px;
+    margin-left: 4px;
+}
+
+.foto-passarella-2{
+    width: 310px;
+    height: 290px;
+}
+
+
+.parrafo-carr{
+    font-size: 12px;
+}
+.Parrafo-index-1{
+    font-size: 12px;
+}
+
+.Inicio-Messi{
+    color: lightyellow;
+    padding: 3px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:  rgb(172, 150, 28);
+    border-radius: 5px;
+    margin: 0px;
+
+    
+}
+ul{
+margin: 0px;
+display: flex;
+flex-flow: row wrap;
+width: 100%;
+}
+nav ul li{
+  margin: 5px;
+  margin-left: 0px;
+}
+
+
+
+}

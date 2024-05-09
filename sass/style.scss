@@ -50,6 +50,19 @@
     margin-top: 25px;
     margin-bottom: 25px;
     border: 2px solid lemonchiffon;
+    box-shadow: 2px 0px 53px 3px rgba(230,235,229,0.75);
+    -webkit-box-shadow: 2px 0px 53px 3px rgba(230,235,229,0.75);
+    -moz-box-shadow: 2px 0px 53px 3px rgba(230,235,229,0.75);
+
+&:hover{
+transform: translate(45px,25px);
+transition: 1s;
+
+
+}
+
+
+
 }
 
 
@@ -129,6 +142,17 @@ body {
     height: 56px;
     margin-bottom: 200px;
     margin-left: 30px;
+    
+    transition: 1s;
+    &:hover {
+
+
+       transform: rotate(360deg);
+    }
+
+
+
+
 }
 .Imagen-inicio{
     width: 550px;
@@ -164,6 +188,16 @@ justify-content: space-between;
     width: 320px;
     height: 280px;
     border-radius: 7px;
+
+&:hover {
+
+transform: translate(-25px, -45px);
+transition: 1s;
+
+
+}
+
+
 }
 header{
 
@@ -175,12 +209,26 @@ header{
     height: 280px;
     border-radius: 7px;
     margin-right: 145px;
+    &:hover {
+
+        transform: translate(-25px, -45px);
+        transition: 1s;
+        
+        
+        }
 }
 .Imagen-iconica-passarella{
     width: 300px;
     height: 320px;
     border-radius: 7px;
     margin-left: 460px;
+    &:hover {
+
+        transform: translate(-25px, -45px);
+        transition: 1s;
+        
+        
+        }
 }
 .Parrafo-1{
     margin-top: 75px;
@@ -226,6 +274,7 @@ margin-top: 45px;
     text-align: end;
     color: white;
     text-decoration: underline white;
+    font-size: 14px;
 }
 .fotos-cancha-iconica{
     display: flex;

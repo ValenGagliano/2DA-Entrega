@@ -141,13 +141,29 @@ font-size: 7px;
  }
  .foto-cancha{
 
-    height: 100px;
-    width: 240px;
+    height: 80px;
+    width: 200px;
+
+
+    &:hover{
+        transform: translate(20px,);
+        transition: 1s;
+        
+        
+        }
  }
  .Imagen-iconica{
 
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
+
+    &:hover {
+
+        transform: translate(-10px, -5px);
+        transition: 1s;
+        
+        
+        }
 
     
  }
@@ -193,10 +209,18 @@ align-items: center;
     height: 240px;
 }
 .Imagen-iconica-kempes{
-    height: 120px;
-    width: 120px;
+    height: 80px;
+    width: 80px;
     margin-left: 40px;
     margin-right: 0px;
+
+    &:hover {
+
+        transform: translate(-10px, -5px);
+        transition: 1s;
+        
+        
+        }
 }
 .foto-kempes-1{
 
@@ -215,10 +239,17 @@ align-items: center;
 }
 
 .Imagen-iconica-passarella{
-    height: 120px;
-    width: 120px;
+    height: 80px;
+    width: 80px;
     margin: 0px;
     margin-left: 4px;
+    &:hover {
+
+        transform: translate(-10px, -5px);
+        transition: 1s;
+        
+        
+        }
 }
 
 .foto-passarella-2{
@@ -255,6 +286,223 @@ nav ul li{
   margin: 5px;
   margin-left: 0px;
 }
+
+body {
+    background: linear-gradient(rgba(0,0,0, 0.30) 0%, rgba(0,0,0, 0.60) 100%), url(https://images7.alphacoders.com/979/979200.jpg);
+    
+    background-size: cover;
+    background-position: center;}
+   
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width:414px) {
+
+
+    .Imagen-final {
+        height: 180px;
+        width: 290px;
+       margin: 0px;
+    }
+
+.Foto-final-jugadores{
+
+    display: flex;
+    align-items: center;
+    
+
+}
+
+    .primera-imagen-perfil{
+        height: 150px;
+        width: 250px;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+ 
+ .parrafo-inicial p{
+    font-size: 7px;
+    
+    
+ }
+ .Parrafo-1{
+display: flex;
+flex-direction: column-reverse;
+justify-content: center;
+align-items: center;
+
+ }
+ .Parrafo-1 p{ 
+
+font-size: 7px;
+
+ }
+ .foto-cancha{
+
+    height: 80px;
+    width: 200px;
+
+
+    &:hover{
+        transform: translate(20px,);
+        transition: 1s;
+        
+        
+        }
+ }
+ .Imagen-iconica{
+
+    height: 80px;
+    width: 80px;
+
+    &:hover {
+
+        transform: translate(-10px, -5px);
+        transition: 1s;
+        
+        
+        }
+
+    
+ }
+ .Parrafo-2 p {
+    font-size: 7px;
+
+ }
+
+.Parrafo-2{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+ .Imagen-messi-parrafo2{
+    height: 120px;
+    width: 320px;
+ }
+ .Foto-Carnet-messi{
+    width: 130px;
+    height: 170px;
+    margin-left: 0px;
+
+ }
+ .icono-barcelona{
+    width: 26px;
+    height: 26px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+
+ }
+.Foto-Carnet-maradona{
+    width: 170px;
+    height: 220px;
+    margin: 0px;
+}
+.imagen-maradona-1{
+
+    width: 280px;
+    height: 240px;
+}
+.Imagen-iconica-kempes{
+    height: 80px;
+    width: 80px;
+    margin-left: 40px;
+    margin-right: 0px;
+
+    &:hover {
+
+        transform: translate(-10px, -5px);
+        transition: 1s;
+        
+        
+        }
+}
+.foto-kempes-1{
+
+    width: 340px;
+    height: 220px;
+}
+.imagen-dimaria-parrafo1{
+    width: 270px;
+    height: 240px;
+
+}
+.Imagen-dimaria-parrafo2{
+    width: 270px;
+    height: 240px;
+
+}
+
+.Imagen-iconica-passarella{
+    height: 80px;
+    width: 80px;
+    margin: 0px;
+    margin-left: 4px;
+    &:hover {
+
+        transform: translate(-10px, -5px);
+        transition: 1s;
+        
+        
+        }
+}
+
+.foto-passarella-2{
+    width: 310px;
+    height: 290px;
+}
+
+
+.parrafo-carr{
+    font-size: 12px;
+}
+.Parrafo-index-1{
+    font-size: 12px;
+}
+
+.Inicio-Messi{
+    color: lightyellow;
+    padding: 3px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:  rgb(172, 150, 28);
+    border-radius: 5px;
+    margin: 0px;
+
+    
+}
+ul{
+margin: 0px;
+display: flex;
+flex-flow: row wrap;
+width: 100%;
+}
+nav ul li{
+  margin: 5px;
+  margin-left: 0px;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0, 0.30) 0%, rgba(0,0,0, 0.60) 100%), url(https://images7.alphacoders.com/979/979200.jpg);
+    
+    background-size: cover;
+    background-position: center;}
+
+
+
+
+
 
 
 
